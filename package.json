@@ -1,0 +1,16 @@
+{
+  "name": "2024-06-14",
+  "version": "1.0.0",
+  "description": "- Dateien die ähnliche Funktionalität / Ziel haben, werden zusammengelegt - Oft sind dabei   - src (Source) : wo es entwickelt ist   - dist : wo es geliefert ist, was entwickelt wurde   - public : wo fonts, icons & co gespeichert sind",
+  "main": "index.js",
+  "scripts": {
+    "sass": "sass --watch ./src/sass/index.scss:./dist/index.css",
+    "push": "git add . && git commit -m 'work in progress' && git push"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "sass": "^1.77.5"
+  }
+}
