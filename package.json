@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "sass": "sass --watch ./src/sass/index.scss:./dist/index.css",
-    "push": "git add . && git commit -m 'work in progress' && git push"
+    "push": "bash -c 'read -p \"Enter commit message: \" msg; git add .; git commit -m \"$msg\"; git push'"
   },
   "keywords": [],
   "author": "",
